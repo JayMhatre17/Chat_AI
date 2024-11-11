@@ -1,0 +1,6 @@
+{
+	"scripts": {
+		"build": "cd backend && npm i --force && cd ../frontend && npm install --legacy-peer-deps && npm i --force && npm run build --legacy-peer-deps",
+		"start": "node backend/app.js"
+	}
+}
